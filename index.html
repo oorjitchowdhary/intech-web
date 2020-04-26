@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>inTech</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <link href="img/logo.png" rel="shortcut icon">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet"/> 
+  <link href="lib/responsive/css/responsive.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" media="screen,projection">
+</head>
+
+<body>
+
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <a href="#hero"><img src="img/logo.png" alt="The Syndicate"></img></a>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Events</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>          
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="hero-container">
+      <div class="wow fadeIn">
+
+        <h1>inTech</h1>
+        <h2>Intra-school</h2>
+        <div class="actions">
+          <a target="_blank" href="http://bit.ly/Robotronics19" class="btn-get-started">Register</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">About Us</h3>
+          <div class="section-title-divider"></div>
+          <p class="about-content" style="text-align:center;">Tech Syndicate is the prestigious tech club of <b>Amity International School, Sector 46, Gurgaon.</b></p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-md-1"></div>
+        <div class="col-md-5 about-img">
+          <img src="img/amity.jpg" alt="Amity International School, Sector-46, Gurgaon">
+        </div>
+
+        <div class="col-md-5 about-content">
+          <p class="about-text">
+            With its inception in 2016, the club is constantly working to make technology accessible to everyone and spark an interest in the youth to keep up with the latest developments in the field of computer science.<br><br>
+            Our club's motive is to use technology creatively to solve real world problems. Robotronics, our tech symposium, was first hosted in 2013. This contest has truly been a challenge for all the tech wizards from Delhi NCR.<br><br>
+            As a legacy we'd like to continue, we're hosting inTech '20: an intra-school event simulating the actual Robotronics for providing the students a platform to showcase their talent and creativity in the field of information technology.
+            </p>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 id="services-title" class="section-title">Events</h3>
+          <div class="section-title-divider"></div>
+          <p class="about-content" style="text-align: center;"> Dream | Design | Develop </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-2">
+        <div class="card card-topimage" data-toggle="modal" data-target="#prod-io-modal">
+            <div class="card-topimage_header">
+                <i class="material-icons">camera_roll</i>
+            </div>
+            <div class="card-topimage_title">
+                <h4>prod.io</h4>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="card card-topimage" data-toggle="modal" data-target="#weev-modal">
+          <div class="card-topimage_header">
+              <i class="material-icons">web</i>
+          </div>
+          <div class="card-topimage_title">
+              <h4>Weev</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="card card-topimage" data-toggle="modal" data-target="#expresso-modal">
+          <div class="card-topimage_header">
+              <i class="material-icons">group</i>
+          </div>
+          <div class="card-topimage_title">
+              <h4>Expresso</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="card card-topimage" data-toggle="modal" data-target="#encryptid-modal">
+          <div class="card-topimage_header">
+            <i class="material-icons">lock_open</i>
+          </div>
+          <div class="card-topimage_title">
+            <h4>Encryptid</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div><br>
+
+      <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-2">
+            <div class="card card-topimage" data-toggle="modal" data-target="#vivacity-modal">
+                <div class="card-topimage_header">
+                    <i class="material-icons">movie_creation</i>
+                </div>
+                <div class="card-topimage_title">
+                    <h4>Vivacity</h4>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card card-topimage" data-toggle="modal" data-target="#creation-d-modal">
+              <div class="card-topimage_header">
+                  <i id="creation-icon" class="material-icons">brush</i>
+              </div>
+              <div class="card-topimage_title">
+                  <h4 id="creation-d">Creation d'affiches</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card card-topimage" data-toggle="modal" data-target="#logomania-modal">
+              <div class="card-topimage_header">
+                  <i class="material-icons">color_lens</i>
+              </div>
+              <div class="card-topimage_title">
+                  <h4 id="logomania">Logomania</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3"></div>
+        </div>
+
+<!-- prod.io Modal -->
+<div class="modal" id="prod-io-modal" tabindex="-1" role="dialog" aria-labelledby="ModalTitle" aria-hidden="true">
+  <div class="vertical-alignment">
+  <div class="modal-dialog vertical-align-center" role="document">
+    <div class="modal-content">
+        <h3 class="modal-title" id="ModalTitle">prod.io (Audio/Visual Editing)
+          <i class="fa fa-times pull-right cursor" class="close" data-dismiss="modal" aria-label="Close"></i></h3>
+      <div class="modal-body">
+        <p class="bold-modal-content">Eligibility: IX-XII<br>1 Team of 2 Members per School</p>
+        <strong><p>Prelims: Transcendence</strong><br>
+          transcendence (noun) /trɑːnˈsɛnd(ə)ns,tranˈsɛnd(ə)ns/<br>
+          existence or experience beyond the normal or physical level.<br><br>
+          Software: any video editing software<br><br>
+          A .mp4 file is to be uploaded on Google Drive or YouTube and the link is to be sent to <a href="mailto:cyberamity46@gmail.com">cyberamity46@gmail.com</a> with school name and video details (if any) in a README file for the event by 11:59pm 17th July 2019.<br><br>
+          The duration of the video should be 3-5 minutes and the video should have a <strong>story</strong>.<br>
+          The video will be assessed on the basis of editing, creativity, videography and story.<br><br>
+          Selected teams will be informed via mail and the results will be uploaded on our <a href="https://www.facebook.com/syndicateofamity46">Facebook page</a> by 22nd July 2019.
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- Weev Modal -->
+<div class="modal" id="weev-modal" tabindex="-1" role="dialog" aria-labelledby="ModalTitle" aria-hidden="true">
+    <div class="vertical-alignment">
+    <div class="modal-dialog vertical-align-center" role="document">
+      <div class="modal-content">
+          <h3 class="modal-title" id="ModalTitle">Weev (Web Development)
+          <i class="fa fa-times pull-right cursor" class="close" data-dismiss="modal" aria-label="Close"></i></h3>
+        <div class="modal-body">
+            <p class="bold-modal-content">Eligibility: IX-XII<br>1 Team of 2 Members per School</p>
+            <strong><p>Prelims: Portfolio website</strong><br>
+              Create a portfolio website for a person contesting for the Mayor.<br>The website should also contain the person's perspective on the city's future.<br><br>
+              Languages: HTML, CSS, Javascript, jQuery<br>
+              Use of Font Awesome icons and online jQuery libraries is allowed but original graphics will be given bonus points.<br><br>
+              All files are to be compressed in a .rar file and mailed to <a href="mailto:cyberamity46@gmail.com">cyberamity46@gmail.com</a> with school name and the details in a README file for the event by 11:59pm 17th July 2019.<br><br>
+              The website will be assessed on the basis of navigation & functionality, originality/innovation, aesthestic and features.<br><br>
+              Selected teams will be informed via mail and the results will be uploaded on our <a href="https://www.facebook.com/syndicateofamity46">Facebook page</a> by 22nd July 2019.
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- Expresso Modal -->
+<div class="modal" id="expresso-modal" tabindex="-1" role="dialog" aria-labelledby="ModalTitle" aria-hidden="true">
+    <div class="vertical-alignment">
+    <div class="modal-dialog vertical-align-center" role="document">
+      <div class="modal-content">
+          <h3 class="modal-title" id="ModalTitle">Expresso (Group Discussion)
+          <i class="fa fa-times pull-right cursor" class="close" data-dismiss="modal" aria-label="Close"></i></h3>
+        <div class="modal-body">
+            <p class="bold-modal-content">Eligibility: IX-XII<br>1 Team of 1 Member per School</p>
+            <strong><p>Topic will be provided on the spot</strong><br>
+              Speak and survive on your wits through a prelim and a final round.<br>The challenge won’t be easy.<br><br>
+              This is not going to be your regular debate. Come prepared for anything.<br><br>
+              The rules of the event as well as the topics will be given on the spot.<br></p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- Encryptid Modal -->
+<div class="modal" id="encryptid-modal" tabindex="-1" role="dialog" aria-labelledby="ModalTitle" aria-hidden="true">
+    <div class="vertical-alignment">
+    <div class="modal-dialog vertical-align-center" role="document">
+      <div class="modal-content">
+          <h3 class="modal-title" id="ModalTitle">Encryptid (Cryptic Hunt)
+          <i class="fa fa-times pull-right cursor" class="close" data-dismiss="modal" aria-label="Close"></i></h3>
+        <div class="modal-body">
+            <p class="bold-modal-content">Eligibility: Open</p>
+            <p>Your usual cryptic hunt with a twist.<br><br>
+              This link will help you: <a href="https://youtu.be/Y9j3heYZAk8?t=4">https://youtu.be/Y9j3heYZAk8?t=4</a> (or not)</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- _____ Modal -->
+<div class="modal" id="surprise-modal" tabindex="-1" role="dialog" aria-labelledby="ModalTitle" aria-hidden="true">
+    <div class="vertical-alignment">
+    <div class="modal-dialog vertical-align-center" role="document">
+      <div class="modal-content">
+          <h3 class="modal-title" id="ModalTitle">_____ (Surprise)
+          <i class="fa fa-times pull-right cursor" class="close" data-dismiss="modal" aria-label="Close"></i></h3>
+        <div class="modal-body">
+            <p class="bold-modal-content">Eligibility: IX-XII<br>1 Team of 2 Members per School</p>
+            <p>01001111 01001101 01000001 01000101 00100000 01010111 01000001 00100000 01001101 01001111 01010101 00100000 01010011 01001000 01001001 01001110 01000100 01000101 01001001 01010010 01010101 ?!?!?!?!?!?!</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- Ideatech Modal -->
+<div class="modal" id="ideatech-modal" tabindex="-1" role="dialog" aria-labelledby="ModalTitle" aria-hidden="true">
+    <div class="vertical-alignment">
+    <div class="modal-dialog vertical-align-center" role="document">
+      <div class="modal-content">
+          <h3 class="modal-title" id="ModalTitle">Ideatech (Idea Pitching)
+          <i class="fa fa-times pull-right cursor" class="close" data-dismiss="modal" aria-label="Close"></i></h3>
+        <div class="modal-body">
+            <p class="bold-modal-content">Eligibility: IX-XII<br>1 Team of 3 Members per School</p>
+            <strong><p>THEME: Bringing a positive change in the Sustainability Spectrum</strong><br>
+              Sub topics:
+              • Climate Change, responsible consumption and production with special emphasis on sustainable cities and communities.<br>
+              • Breaking the barriers: Gender equality and Discrimination<br>
+              • Fundamentals: Quality Education / Healthcare / Food Security / Agriculture<br><br>
+              Design experiments in various parameters and carry them out to prove the hypothesis.<br>Students must develop a product and promote it in any form - be it a game / a mobile application (iOS / Android) / Website / PowerPoint / Movie / 3D model or a combination of all -- and pitch it.<br><br>
+              Email us your YouTube video link / PowerPoint Presentation / APK or IPA / images (containing the introduction to your idea) as well as your source code (through GitHub or Google Drive) latest by 17th July 2019 at <a href="mailto:cyberamity46@gmail.com">cyberamity46@gmail.com</a><br><br>
+              Selected teams will be informed via mail and the results will be uploaded on our <a href="https://www.facebook.com/syndicateofamity46">Facebook page</a> by 22nd July 2019.
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- Jr Robotrix Modal -->
+<div class="modal" id="jr-robotrix-modal" tabindex="-1" role="dialog" aria-labelledby="ModalTitle" aria-hidden="true">
+    <div class="vertical-alignment">
+    <div class="modal-dialog vertical-align-center" role="document">
+      <div class="modal-content">
+          <h3 class="modal-title" id="ModalTitle">Jr Robotrix (Robotics Juniors)
+          <i class="fa fa-times pull-right cursor" class="close" data-dismiss="modal" aria-label="Close"></i></h3>
+        <div class="modal-body">
+            <p class="bold-modal-content">Eligibility: IV-VII<br>1 Team of maximum 3 Members per School</p>
+            <strong><p>THEME: SMART CITIES</strong><br>
+              The objective of the Smart Cities is to promote cities that provide core infrastructure and give a decent quality of life to its citizens, with a clean and sustainable environment and application of ‘smart’ solutions.<br>In this, Waste Management is an important factor. It involves collection, transportation and disposal of waste.<br><br>
+              The Jr Robotrix Challenge is to design a robot which will collect the waste based upon their type (Wet or solid) from homes and transport it to its designated area.<br><br>
+              Teams can use any ready-to-assemble kit/ LEGO® MINDSTORM® kit /embedded systems kit available in the market.<br>
+              For rules and regulations kindly visit: <a href="https://bit.ly/2H1bZKE">https://bit.ly/2H1bZKE</a></p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- Sr Robotrix Modal -->
+<div class="modal" id="sr-robotrix-modal" tabindex="-1" role="dialog" aria-labelledby="ModalTitle" aria-hidden="true">
+    <div class="vertical-alignment">
+    <div class="modal-dialog vertical-align-center" role="document">
+      <div class="modal-content">
+          <h3 class="modal-title" id="ModalTitle">Sr Robotrix (Robotics Seniors)
+          <i class="fa fa-times pull-right cursor" class="close" data-dismiss="modal" aria-label="Close"></i></h3>
+        <div class="modal-body">
+            <p class="bold-modal-content">Eligibility: VIII-XI<br>1 Team of maximum 3 Members per School</p>
+            <strong><p>THEME: SMART HOSPITALS - SMART CITIES</strong><br>
+              The objective of the Smart Cities is to promote cities that provide core infrastructure and give a decent quality of life to its citizens, with a clean and sustainable environment and application of ‘smart’ solutions.<br>In this, Waste Management is an important factor. It involves collection, transportation and disposal of waste.<br><br>
+              The Sr Robotrix Challenge is to build a Robot which can detect the disease, the patient is suffering from and take the patient to their designated department for further treatment.<br><br>
+              Teams can use any ready-to-assemble kit/ LEGO® MINDSTORM® kit /embedded systems kit available in the market.<br>
+              For rules and regulations kindly visit: <a href="https://bit.ly/2H1bZKE">https://bit.ly/2H1bZKE</a></p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- Vivacity Modal -->
+<div class="modal" id="vivacity-modal" tabindex="-1" role="dialog" aria-labelledby="ModalTitle" aria-hidden="true">
+    <div class="vertical-alignment">
+    <div class="modal-dialog vertical-align-center" role="document">
+      <div class="modal-content">
+          <h3 class="modal-title" id="ModalTitle">Vivacity (Flash Movie)
+          <i class="fa fa-times pull-right cursor" class="close" data-dismiss="modal" aria-label="Close"></i></h3>
+        <div class="modal-body">
+            <p class="bold-modal-content">Eligibility: VII-VIII<br>1 Team of 2 Members per School</p>
+            <strong><p>Prelims topic: SMART CITIES</strong><br>
+              Software to be used: Macromedia Flash 8<br><br>
+              All project files to be sent in their original form .fla file (need not be converted) and mailed to <a href="mailto:cyberamity46@gmail.com">cyberamity46@gmail.com</a> with school’s name and the names of participants for the event by 11:59 pm, 17th July 2019.<br><br>
+              Duration of the movie should be one minute.<br>
+              The entries will be assessed on the basis of creativity and originality, technical skills, and impact and presentation.<br><br>
+              For the final round, participants will not be allowed to use the internet and/or any external medium (CD/Pen Drive).<br>Images for the animation will be provided by the host school.<br><br>
+              8 teams will be selected and will be informed via mail, and the results will be uploaded on our <a href="https://www.facebook.com/syndicateofamity46">Facebook page</a> by 22nd July 2019.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- Creation d'affiches Modal -->
+<div class="modal" id="creation-d-modal" tabindex="-1" role="dialog" aria-labelledby="ModalTitle" aria-hidden="true">
+    <div class="vertical-alignment">
+    <div class="modal-dialog vertical-align-center" role="document">
+      <div class="modal-content">
+          <h3 class="modal-title" id="ModalTitle">Creation d'affiches (Graphic Designing)
+          <i class="fa fa-times pull-right cursor" class="close" data-dismiss="modal" aria-label="Close"></i></h3>
+        <div class="modal-body">
+            <p class="bold-modal-content">Eligibility: V-VI<br>1 Team of 2 Members per School</p>
+            <strong><p>Prelims topic: Internet of Things</strong><br>
+              Software to be used: Adobe Photoshop CC<br><br>
+              All project files are to be sent in their original form and mailed to <a href="mailto:cyberamity46@gmail.com">cyberamity46@gmail.com</a> with the respective school’s name and the participants’ details for the event by 11:59 pm, 17th July 2019.<br><br>
+              The graphic will be assessed on the basis of creativity and originality, technical skills, and impact.<br><br>
+              For the final round, participants will be given the topic on the spot and images will be provided.<br><br>
+              8 teams will be selected and will be informed via mail, and the results will be uploaded on our <a href="https://www.facebook.com/syndicateofamity46">Facebook page</a> by 22nd July 2019.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- Logomania Modal -->
+<div class="modal" id="logomania-modal" tabindex="-1" role="dialog" aria-labelledby="ModalTitle" aria-hidden="true">
+    <div class="vertical-alignment">
+    <div class="modal-dialog vertical-align-center" role="document">
+      <div class="modal-content">
+          <h3 class="modal-title" id="ModalTitle">Logomania (MSW Logo)
+          <i class="fa fa-times pull-right cursor" class="close" data-dismiss="modal" aria-label="Close"></i></h3>
+        <div class="modal-body">
+            <p class="bold-modal-content">Eligibility: III-IV<br>1 Team of 2 Members per School</p>
+            <strong><p>THEME: SMART CITIES</strong><br>
+              Software to be used: MSW Logo<br><br>
+              Topic related to the theme will be given on the spot.<br>Participants will be required to create a scene in MSW Logo using logo commands /procedures.<br><br>
+              Access to any kind of external medium (Pen drive(s), CD or Pre-coded program in any form etc.) will not be allowed.<br><br>
+              The entries will be assessed on the basis of completion of the program, concise and well-structured code, correct execution and output of the program.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  </section>
+
+  <section id="team">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">The Team</h3>
+          <div class="section-title-divider"></div>
+        </div>
+      </div>  
+      
+      <div class="row">
+        <div class="col-md-3">
+            <div class="our-team">
+                <div class="pic">
+                    <img src="img/laxya.jpg">
+                </div>
+                <div class="description">
+                    <div class="team-prof">
+                        <h4>Laxya Pahuja</h4>
+                        <span>President</span>
+                    </div>
+                    <ul class="social-links">
+                        <li><a href="https://www.instagram.com/laxyapahuja_" class="fa fa-instagram"></a></li>
+                        <li><a href="mailto:laxya.pahuja8@gmail.com" class="fa fa-envelope"></a></li>
+                        <li><a href="https://www.youtube.com/laxyapahuja15" class="fa fa-youtube"></a></li>
+                        <li><a href="https://github.com/laxyapahuja" class="fa fa-github"></a></li>
+                        <li><a href="https://www.behance.net/designpr0" class="fa fa-behance"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+          <div class="our-team">
+              <div class="pic">
+                  <img src="https://github.com/oorjitchowdhary.png">
+              </div>
+              <div class="description">
+                  <div class="team-prof">
+                      <h4>Oorjit Chowdhary</h4>
+                      <span>Vice President</span>
+                  </div>
+                  <ul class="social-links">
+                      <li><a href="https://www.facebook.com/oorjit" class="fa fa-facebook"></a></li>
+                      <li><a href="https://www.instagram.com/oorjitt.c" class="fa fa-instagram"></a></li>
+                      <li><a href="mailto:oorjit.chowdhary@hotmail.com" class="fa fa-envelope"></a></li>
+                      <li><a href="https://twitter.com/oorjitchowdhary" class="fa fa-twitter"></a></li>
+                      <li><a href="https://github.com/oorjitchowdhary" class="fa fa-github"></a></li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="our-team">
+            <div class="pic">
+                <img src="img/ribhav.jpeg">
+            </div>
+            <div class="description">
+                <div class="team-prof">
+                    <h4>Ribhav Sharma</h4>
+                    <span>Secretary</span>
+                </div>
+                <ul class="social-links">
+                    <li><a href="https://facebook.com/ribhav.sharma.7146" class="fa fa-facebook"></a></li>
+                    <li><a href="https://instagram.com/_ribhavsharma" class="fa fa-instagram"></a></li>
+                    <li><a href="mailto:ribhavsharma2003@gmail.com" class="fa fa-envelope"></a></li>
+                    <li><a href="https://twitter.com/ribhavvsharma" class="fa fa-twitter"></a></li>
+                    <li><a href="https://github.com/ribhavsharma" class="fa fa-github"></a></li>
+                  </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="our-team">
+            <div class="pic">
+              <img src="https://github.com/rachittt.png">
+            </div>
+            <div class="description">
+              <div class="team-prof">
+                  <h4>Rachit Gupta</h4>
+                  <span>Joint Secretary</span>
+              </div>
+              <ul class="social-links">
+                <li><a href="https://www.facebook.com/Rachitttt" class="fa fa-facebook"></a></li>
+                <li><a href="mailto:guptarachit2004@gmail.com" class="fa fa-envelope"></a></li>
+                <li><a href="https://www.behance.net/guptarachit" class="fa fa-behance"></a></li>
+                <li><a href="https://github.com/rachittt" class="fa fa-github"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="our-team">
+              <div class="pic">
+                  <img src="img/chiranjiv.jpg">
+              </div>
+              <div class="description">
+                  <div class="team-prof">
+                      <h4>Chiranjiv Singh Malhi</h4>
+                      <span>Member</span>
+                  </div>
+                  <ul class="social-links">
+                      <li><a href="https://www.facebook.com/chiranjiv.malhi" class="fa fa-facebook"></a></li>
+                      <li><a href="https://www.instagram.com/chiranjivmalhi" class="fa fa-instagram"></a></li>
+                      <li><a href="mailto:cmalhi03@gmail.com" class="fa fa-envelope"></a></li>
+                      <li><a href="https://chiranjiv.artstation.com" class="fa fa-globe"></a></li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="our-team">
+              <div class="pic">
+                  <img src="https://github.com/mihiraggarwal.png">
+              </div>
+              <div class="description">
+                  <div class="team-prof">
+                      <h4>Mihir Aggarwal</h4>
+                      <span>Member</span>
+                  </div>
+                  <ul class="social-links">
+                      <li><a href="https://www.instagram.com/_mihiirr.x" class="fa fa-instagram"></a></li>
+                      <li><a href="mailto:mihir.aggarwal1000@gmail.com" class="fa fa-envelope"></a></li>
+                      <li><a href="https://github.com/mihiraggarwal" class="fa fa-github"></a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3">
+        <div class="our-team">
+            <div class="pic">
+                <img src="img/devjyoti.jpeg" alt="our-team">
+            </div>
+            <div class="description">
+                <div class="team-prof">
+                    <h4>Devjyoti Ghosh</h4>
+                    <span>Member</span>
+                </div>
+                <ul class="social-links">
+                    <li><a href="https://www.instagram.com/dev.lok" class="fa fa-instagram"></a></li>
+                    <li><a href="mailto:dev762002@gmail.com" class="fa fa-envelope"></a></li>
+                </ul>
+            </div>
+        </div>
+      </div>
+        <div class="col-md-3">
+          <div class="our-team">
+            <div class="pic">
+              <img src="img/vaibhav.jpeg">
+            </div>
+            <div class="description">
+              <div class="team-prof">
+                  <h4>Vaibhav Sharma</h4>
+                  <span>Member</span>
+              </div>
+              <ul class="social-links">
+                  <li><a href="https://instagram.com/_.chintuuu._" class="fa fa-instagram"></a></li>
+                  <li><a href="mailto:rajmachawal19@gmail.com" class="fa fa-envelope"></a></li>
+                  <li><a href="https://github.com/gigabite-pro" class="fa fa-github"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="our-team">
+            <div class="pic">
+                <img src="img/">
+            </div>
+            <div class="description">
+                <div class="team-prof">
+                    <h4>Akshat Aggarwal</h4>
+                    <span>Member</span>
+                </div>
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com/" class="fa fa-facebook"></a></li>
+                    <li><a href="https://www.instagram.com/" class="fa fa-instagram"></a></li>
+                    <li><a href="mailto:" class="fa fa-envelope"></a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="our-team">
+            <div class="pic">
+              <img src="img/shashwat.jpg">
+            </div>
+            <div class="description">
+              <div class="team-prof">
+                  <h4>Shashwat</h4>
+                  <span>Member</span>
+              </div>
+              <ul class="social-links">
+                <li><a href="https://www.instagram.com/shashwat3104" class="fa fa-instagram"></a></li>
+                <li><a href="mailto:vishalshashwat@gmail.com" class="fa fa-envelope"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="our-team">
+            <div class="pic">
+              <img src="img/ayush.jpeg">
+            </div>
+            <div class="description">
+              <div class="team-prof">
+                  <h4>Ayush Dhiman</h4>
+                  <span>Member</span>
+              </div>
+              <ul class="social-links">
+                <li><a href="https://www.facebook.com/ayush.dhiman.9615" class="fa fa-facebook"></a></li>
+                <li><a href="https://www.instagram.com/ayush.dhimann" class="fa fa-instagram"></a></li>
+                <li><a href="mailto:dhiman2003ayush@gmail.com" class="fa fa-envelope"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="our-team">
+            <div class="pic">
+                <img src="img/tanush.jpg">
+            </div>
+            <div class="description">
+                <div class="team-prof">
+                    <h4>Tanush Guha</h4>
+                    <span>Member</span>
+                </div>
+                <ul class="social-links"> 
+                    <li><a href="https://instagram.com/tanushg_03" class="fa fa-instagram"></a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">Contact Us</h3>
+          <div class="section-title-divider"></div>
+          <p class="section-description">We aim to revolutionize the age of technology by fostering young minds.</p>
+        </div>
+      </div>
+          <div class="container info">
+            <div class="col-md-4">
+              <i class="fa fa-map-marker"></i>
+              <p>Amity International School<br>Sector-46, Gurgaon</p>
+            </div>
+            <div class="col-md-4">
+              <a href="https://www.facebook.com/syndicateofamity46/"><i class="fa fa-facebook-square"></i></a>
+              <p>@syndicateofamity46</p>
+            </div>
+            <div class="col-md-4">
+              <a href="mailto:cyberamity46@gmail.com"><i class="fa fa-envelope"></i></a>
+              <p>cyberamity46@gmail.com</p>
+            </div>
+          </div>
+
+    </div>
+  </section>
+
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/responsive/js/responsive.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
